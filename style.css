@@ -131,7 +131,7 @@ body {
 .nav-link:hover{
   background: var(--color-primary);
   border-radius: 6px;
-  
+  color: var(--color-white);
 }
 .nav-login{
     display: flex;
@@ -403,7 +403,7 @@ section{
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 0 4px 2px var(--color-black);
+  box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.6);
   margin-bottom: 26px;
 }
 .courses-card-images:hover{
@@ -623,20 +623,20 @@ section{
   font-size: 20px;
   margin-right: 10px;
 }
-.footer-bottom{
+.footer-copyright{
   display: flex;
   align-items: center;
   gap: 500px;
   padding-block: 24px;
 }
-.footer-bottom > .packages-link{
+.footer-copyright > .packages-link{
   color: var(--color-secondary-textColor);
 }
-.footer-bottom .footer-bottom-icons{
+.footer-copyright .footer-copyright-icons{
   display: flex;
   gap: 26px;
 }
-.footer-bottom .footer-bottom-icons > i{
+.footer-copyright .footer-copyright-icons > i{
   font-size: 30px;
   color: var(--color-primary);
 } 
