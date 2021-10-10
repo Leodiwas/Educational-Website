@@ -852,6 +852,7 @@ section{
   .footer-top{
     flex-direction: column;
     gap: 20px;
+    margin-bottom: 10px;
   }
   .footer-top div > .title{
     text-align: center;
@@ -916,7 +917,9 @@ section{
 .newsletter-contents > .newsletter-info{
   margin-bottom: 40px;
 }
-
+.footer-copyright{
+  padding-block: 10px;
+}
 
 
 
