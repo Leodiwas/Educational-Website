@@ -680,33 +680,29 @@ section{
 /* Media Queries for Tablet */
 @media screen and (max-width: 768px) {
 
-  /* .container{
-    max-width: 720px;
-    margin: 0 auto ;
-  }
-
-  /* nav-toggler */
-  .navbar {
+  .navbar{
     margin-top: 0;
     background: var(--color-bg-light);
     background: url(images/corridor.jpg);
     background-position: end;
     background-size: cover;
   }
-  .nav-container {
+  .nav-container{
     padding: 0;
-  }
-  .nav-toggler {
+    }
+ .nav-toggler{
     display: block;
   }
-
+ 
   .navbar-content {
     min-height: 60px;
-    padding: 0 20px;
     margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
   }
+  
   .navbar-content ul {
-    z-index: 9999;
+      z-index: 9999;
     position: absolute;
     width: 100%;
     height: calc(100vh - 60px);
@@ -721,7 +717,7 @@ section{
     background-position: center;
     max-height: 0;
     overflow: hidden;
-    transition: 0.3s;
+    transition: .3s;
   }
   .navbar-content ul li {
     width: 100%;
@@ -733,15 +729,27 @@ section{
     font-size: 28px;
   }
   .navbar-content ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255,255,255,.1);
     box-sizing: 0 0 2px 2px var(--color-primary);
   }
   .navbar-content ul.open {
     max-height: 100vh;
     overflow: visible;
   }
-  /* nav-toggler ends */
-
+  .nav-login{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  section{
+    padding-block: 60px;
+  }
+  .container{
+    max-width: 720px;
+    margin: 0 auto ;
+  }
+  .nav-menu{
+    display: none;
+  }
   .cards{
     gap: 20px;
     bottom: -296px;
@@ -753,16 +761,18 @@ section{
     font-size: 42px;
     line-height: 50px;
   }
-.packages-contents {
+  .packages-contents {
   gap: 140px;
-}
+  }
   .vid-package-contents{
     gap: 50px;
   }
   .header-heading-info > p:nth-last-child(2){
     font-size: 18px;
-  } */
-
+  } 
+  .courses-info{
+    margin-bottom: 50px;
+  }
 
 
 }
@@ -783,12 +793,14 @@ section{
   }
   .header-title{
     text-align: center;
+    margin-bottom: 10px;
   }
   .header-heading-btns{
     justify-content: center;
   }
   .header-heading-info > p:first-child {
     text-align: center;
+    margin-bottom: 10px;
   }
   .header-heading-info > p:nth-last-child(2){
     text-align: center;
@@ -800,7 +812,7 @@ section{
   }
   .header-heading > .img-responsive{
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .header-cards > .cards{
     position: relative;
@@ -873,7 +885,7 @@ section{
     margin-bottom: 0;
   }
   section{
-    padding-block: 50px ;
+    padding-block: 30px ;
   }
   .heart{
     left: 110px;
