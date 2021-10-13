@@ -27,6 +27,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  /* border: 2px solid red; */
 }
 
 html,
@@ -762,6 +764,22 @@ section{
   .courses-info{
     margin-bottom: 50px;
   }
+  .img-package-1{
+    top: 24px;
+    right: 116px;
+    width: 50%;
+  }
+  .img-package-2{
+    top: 88px;
+    right: -60px;
+    width: 50%;
+  }
+  }
+  .img-package-3{
+    bottom: 10px;
+    right: 92px;
+    width: 60%;
+  }
   .heart{
     left: 80px;
   }
@@ -777,7 +795,6 @@ section{
   }
   .footer-top > div{
     margin-bottom: 20px;
-    /* width: 50%; */
   }
   .footer-copyright{
     gap: 0;
