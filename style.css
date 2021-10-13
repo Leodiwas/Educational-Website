@@ -777,6 +777,7 @@ section{
   }
   .footer-top > div{
     margin-bottom: 20px;
+    /* width: 50%; */
   }
   .footer-copyright{
     gap: 0;
@@ -787,7 +788,7 @@ section{
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding: 0 200px; 
+  margin: auto;
   }
 
 }
@@ -886,7 +887,6 @@ section{
   .testimonials-cards{
     flex-direction: column;
   }
-
   main{
     margin-block: 0;
   }
@@ -907,7 +907,7 @@ section{
   }
   .testimonials-cards {
     gap: 40px;
-}
+  }
   .testimonial-card > .title{
     font-size: 24px;
   }
@@ -931,50 +931,55 @@ section{
     .newsletter-contents div > input {
   padding: 8px 0 8px 8px;
   }
-
   .inputs > a{
   padding: 11px 26px;
   }
-.newsletter-contents > .newsletter-info{
+  .newsletter-contents > .newsletter-info{
   margin-bottom: 40px;
   }
-
-.packages-link-locaton{
+  .newsletter-contents > .inputs{
+    flex-direction: column;
+  }
+  .newsletter-contents div > input{
+    width: 100%;
+    border-radius: 6px ;
+    margin-bottom: 10px;
+  }
+  .inputs > a{
+    border-radius: 6px;
+  }
+  .packages-link-locaton{
   max-width: 37ch;
-}
-
-.footer-top{
+  }
+  .footer-top{
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 10px;
-}
-.footer-top > div{
-  width: 44%;
+  }
+  .footer-top > div{
+  width: 48%;
   margin-bottom: 0;
-}
-.footer-top div > .title{
+  }
+  .footer-top div > .title{
   text-align: center;
   margin-bottom: 14px;
   font-size: 26px;
-}
-
-.footer-copyright{
+  line-height: 30px;
+  }
+  .footer-copyright{
   gap: 0;
   justify-content: space-around;
-}
-.footer-responsive{
+  }
+  .footer-top > .footer-responsive{
   padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-}
-.footer-copyright{
+  width: 100%;
+  }
+  .footer-copyright{
   flex-wrap: wrap;
-}
-.footer-copyright > .packages-link{
+  }
+  .footer-copyright > .packages-link{
   margin-bottom: 20px;
-}
+  }
 
 
 
