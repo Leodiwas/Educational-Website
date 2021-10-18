@@ -305,15 +305,17 @@ section{
   gap: 250px;
   align-items: center;
 }
+.img-package-contents{
+  padding : 0 140px ;
+}
 .packages-img{
-  width: 30%;
+  width: 70%;
   position: relative;
 }
 .package-img-main{
-  border-radius: 60px;
+  border-radius: 40px;
   transition: all 0.5s ease;
 }
-
 .img-package-1{
   position: absolute ;
   top: 150px;
@@ -747,6 +749,12 @@ section{
   .packages-contents {
   gap: 140px;
   }
+  .img-package-contents{
+    padding : 0 70px ;
+  }
+  .packages-img{
+    width: 100%;
+  }
   .vid-package-contents{
     gap: 50px;
   }
@@ -861,8 +869,11 @@ section{
     gap: 50px;
     text-align: center;
   }
+  .img-package-contents{
+    padding : 0 50px ;
+  }
   .packages-img{
-    width: 80%;
+    width: 100%;
   }
   .packages-link{
     text-align: center;
@@ -933,19 +944,19 @@ section{
     padding-block: 60px ;
   }
   .img-package-1 {
-    right: 236px;
+    right: 192px;
   }
   .img-package-2 {
-    right: -36px;
+    right: -40px;
   }
   .img-package-3 {
-    right: 192px;
+    right: 164px;
   }
   .header {
   background: var(--color-faded-primary);
   padding-bottom: 50px;
   }
-    .newsletter-contents div > input {
+  .newsletter-contents div > input {
   padding: 8px 0 8px 8px;
   }
   .inputs > a{
@@ -997,31 +1008,6 @@ section{
   .footer-copyright > .packages-link{
   margin-bottom: 20px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
