@@ -363,10 +363,6 @@ section{
   cursor: pointer;
   transition: all 0.5s ease;
 }
-.learn-link:hover{
-  background: var(--color-primary);
-  color: var(--color-white);
-}
 
 /* .....................another package styling....................*/
 
@@ -603,6 +599,7 @@ section{
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  border-left: none;
   border-radius: 0 6px 6px 0;
   text-decoration: none;
   color: var(--color-white);
@@ -619,20 +616,28 @@ section{
 .footer-top > div > .title{
   margin-bottom: 20px;
 }
+.footer-top > .footer-contact-links > div > .title{
+  margin-bottom: 20px;
+}
 .footer-top > div > .packages-link{
   color: var(--color-secondary-textColor);
   margin-bottom: 10px;
 }
-.footer-top > .footer-contact-links > a{
+.footer-top > .footer-contact-links > div > .packages-link {
+  color: var(--color-secondary-textColor);
+  margin-bottom: 10px;
+}
+.footer-top > .footer-contact-links > div > a{
   display: flex;
   text-align: start;
   gap: 30px;
+  align-items: center;
+  color: var(--color-secondary-textColor);
 }
-.footer-top .footer-contact-links > .packages-contact-link > i{
+.footer-top .footer-contact-links > div > .packages-contact-link > i{
   color: var(--color-primary);
   font-size: 20px;
 }
-
 .footer-copyright{
   display: flex;
   align-items: center;
@@ -722,9 +727,8 @@ section{
     max-height: 100vh;
     overflow: visible;
   }
-  .nav-login{
-    margin-right: 0;
-    margin-left: 0;
+  .nav-items{
+    margin-left: auto;
   }
   .nav-login > a:first-child{
     color: var(--color-white);
@@ -736,7 +740,6 @@ section{
     max-width: 720px;
     margin: 0 auto ;
   }
-
   .cards{
     gap: 20px;
     bottom: -296px;
@@ -747,6 +750,9 @@ section{
   .header-title{
     font-size: 42px;
     line-height: 50px;
+  }
+  .header-btn{
+    padding: 10px 20px;
   }
   .packages-contents {
   gap: 140px;
@@ -816,6 +822,9 @@ section{
   text-align: center;
   flex-direction: column;
   margin: auto;
+  }
+  .footer-top > .footer-contact-links > div > a {
+    max-width: 28ch;
   }
 
 }
@@ -964,6 +973,12 @@ section{
   .inputs > a{
   padding: 11px 26px;
   }
+  .newsletter-contents .inputs > input{
+    width: 100%;
+    padding: 10px 0 10px 16px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
   .newsletter-contents > .newsletter-info{
   margin-bottom: 40px;
   }
@@ -1003,6 +1018,12 @@ section{
   .footer-top > .footer-contact-links{
   padding: 0;
   width: 100%;
+  }
+  .footer-top > .footer-contact-links > div{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 29ch;
   }
   .footer-copyright{
   flex-wrap: wrap;
